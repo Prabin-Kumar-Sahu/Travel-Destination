@@ -1,6 +1,5 @@
 import React from 'react'
-import './main.css'
-// import {IoLocationSharp} from 'react-icons/io';
+import "./main.css";
 import { GrLocation } from "react-icons/gr";
 import {BsFillClipboardHeartFill} from "react-icons/bs"
 import img from '../../Assets/img(1).jpg';
