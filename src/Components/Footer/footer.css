@@ -84,14 +84,14 @@
   border: 1px solid var(--whiteColor);
   outline: none;
   background: transparent;
-  color: var(--whiteColor);
+  color: black;
 }
 .footer .secContent .contactDiv .inputDiv input::-moz-placeholder {
-  color: hsl(201, 33%, 16%);
+  color: hsl(120, 4%, 11%);
   opacity: 0.5;
 }
 .footer .secContent .contactDiv .inputDiv input::placeholder {
-  color: hsl(201, 33%, 16%);
+  color: hsl(120, 4%, 11%);
   opacity: 0.5;
 }
 .footer .secContent .contactDiv .inputDiv .btn {
@@ -100,4 +100,7 @@
   color: var(--whiteColor);
   font-weight: 500;
   gap: 0.5rem;
+}
+.footer .secContent .contactDiv .inputDiv .btn .icon {
+  font-size: 28px;
 }/*# sourceMappingURL=footer.css.map */

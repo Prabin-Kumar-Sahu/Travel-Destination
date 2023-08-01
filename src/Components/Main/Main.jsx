@@ -12,6 +12,8 @@ import img7 from '../../Assets/img(7).jpg';
 import img8 from '../../Assets/img(8).jpg';
 import img9 from '../../Assets/img(9).jpg';
 import img10 from '../../Assets/img(10).jpg';
+import img11 from '../../Assets/img(11).jpg';
+import img12 from '../../Assets/img(12).jpg';
 
 const Data=
 [
@@ -103,7 +105,25 @@ const Data=
   location: 'United State',
   grade: 'CULTURAL RELAX',
   fees: '₹500000',
-  description: 'Experience the vibrant heartbeat of New York City at Times Square. A bustling and iconic destination filled with dazzling lights, entertainment, shopping, and the bustling energy of the Big Apple..' 
+  description: 'Experience the vibrant heartbeat of New York City at Times Square. A bustling and iconic destination filled with dazzling lights, entertainment, shopping, and the bustling energy of the Big Apple.' 
+},
+{
+  id:11,
+  imgSrc: img11,
+  destTitle: 'Cape Town',
+  location: 'South Affrica',
+  grade: 'CULTURAL RELAX',
+  fees: '₹330000',
+  description: 'Cape Town, a captivating South African gem, captivates travelers with its Table Mountain backdrop, golden beaches, diverse culture, and vibrant city life. A perfect blend of natural beauty and urban charm.' 
+},
+{
+  id:12,
+  imgSrc: img12,
+  destTitle: 'Santorini',
+  location: 'Greece',
+  grade: 'CULTURAL RELAX',
+  fees: '₹400000',
+  description: ' Santorini, a picturesque Greek island, enchants travelers with its breathtaking sunsets, charming white-washed buildings, crystal-clear waters, and unique volcanic landscapes. A romantic paradise for unforgettable moments.' 
 },
 
 ]
