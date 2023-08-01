@@ -39,7 +39,7 @@
 @media screen and (max-width: 768px) {
   .header .navBar {
     position: absolute;
-    background: var(--whiteColorDeam);
+    background: white;
     height: -moz-max-content;
     height: max-content;
     width: 80%;

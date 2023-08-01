@@ -1,5 +1,3 @@
-
-
 :root {
   --PrimaryColor: hsl(199, 100%, 33%);
 
@@ -130,7 +128,25 @@
 
           .price {
             font-size: 2rem;
-            color: var(--blackColor);
+            color:rgb(233, 44, 10);
+          }
+        }
+        .desc {
+          font-size: 14px;
+          color: var(--textColor);
+          font-weight: 500;
+        }
+        .btn {
+          margin-top: 1rem;
+          color: var(--whiteColor);
+          font-weight: 600;
+          justify-content: center;
+          gap: 0.5rem;
+
+          .icon {
+            align-self: center;
+            font-size: 18px;
+            
           }
         }
       }
