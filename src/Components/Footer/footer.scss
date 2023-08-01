@@ -38,14 +38,14 @@
     width: 100%;
 
     video {
-        margin-top: 25px;
+      margin-top: 25px;
       height: 100%;
       object-fit: cover;
     }
     &::after {
       content: "";
       position: absolute;
-      background: rgba( 10, 84, 107, 0.307);
+      background: rgba(10, 84, 107, 0.307);
       top: 0;
       bottom: 0;
       right: 0;
@@ -74,50 +74,132 @@
         small {
           font-size: 13px;
           font-weight: 800;
-          color:red;
+          color: red;
         }
         h2 {
-          color:var(--blackColor);
+          color: var(--blackColor);
           font-size: 1.8rem;
         }
       }
-      .inputDiv
-      {
+      .inputDiv {
         width: 100%;
         gap: 1rem;
         flex-direction: column;
 
-        input{
-            width: 100%;
-            padding: .5rem .6rem;
-            border-radius: 3rem;
-            border:1px solid var(--whiteColor);
-            outline: none;
-            background: transparent;
-            color: black;
+        input {
+          width: 100%;
+          padding: 0.5rem 0.6rem;
+          border-radius: 3rem;
+          border: 1px solid var(--whiteColor);
+          outline: none;
+          background: transparent;
+          color: black;
 
-            &::placeholder
-            {
-                color: hsl(120, 4%, 11%);
-                opacity: .5;
-            }
-
+          &::placeholder {
+            color: hsl(120, 4%, 11%);
+            opacity: 0.5;
+          }
         }
-        .btn
-        {
-            width: 50%;
-            justify-content: center;
-            color: var(--whiteColor);
-            font-weight: 500;
-            gap: .5rem;
+        .btn {
+          width: 50%;
+          justify-content: center;
+          color: var(--whiteColor);
+          font-weight: 500;
+          gap: 0.5rem;
 
-
-            .icon{
-                font-size:28px ;
-            }
+          .icon {
+            font-size: 28px;
+          }
         }
       }
+    }
+    .footerCard {
+      position: relative;
+      padding: 1rem 1rem 4rem;
+      gap: 2rem;
+      border-radius: 1rem;
+      background: var(--bodyColor);
+      width: 100%;
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-start;
+      overflow: hidden;
 
+      .footerIntro {
+        flex-basis: 50%;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        row-gap: 0.5rem;
+      }
+      .logoDiv {
+        .logo {
+          color: var(--blackColor);
+          font-weight: 600;
+          .icon {
+            font-size: 35px;
+            color: var(--PrimaryColor);
+            padding: 2px;
+          }
+        }
+      }
+      .footerParagraph {
+        font-size: 15px;
+        color: black;
+      }
+      .footerSocials {
+        column-gap: 1rem;
+
+        .icon {
+          color: var(--blackColor);
+          font-size: 25px;
+          margin-top: 5px;
+          margin-right: 5px;
+          transition: transform 0.10s;
+
+          &:hover {
+            color:var(--PrimaryColor);
+            transform:scale(1.5);
+            
+          }
+        }
+      }
+      .footerLinks {
+        flex-basis: 50%;
+        width: 100%;
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+
+        .linksGroup {
+          .groupTitle {
+            display: block;
+            font-weight: 600;
+            color: var(--blackColor);
+            margin-bottom: 0.5rem;
+          }
+          .footerList {
+            font-size: 15px;
+            color: var(--textColor);
+            transition: 0.6s ease-in-out;
+            
+
+            .icon {
+              font-size: 15px;
+              color: var(--blackColor);
+            }
+            &:hover {
+              color: var(--PrimaryColor);
+              transform: translateX(10px);
+            
+
+              .icon {
+                color: var(--SecondaryColor);
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

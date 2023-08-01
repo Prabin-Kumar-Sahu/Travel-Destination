@@ -1,6 +1,6 @@
 import React , {useState}from "react";
 import "./navbar.css";
-import { MdOutlineTravelExplore} from "react-icons/md";
+import { SiYourtraveldottv} from "react-icons/si";
 import {IoMdCloseCircleOutline } from "react-icons/io";
 import {PiDotsNineBold } from "react-icons/pi";
 
@@ -24,8 +24,8 @@ const Navbar = () => {
         <div className="logoDiv">
           <a href="#" className="logo">
             <h1>
-              <MdOutlineTravelExplore className="icon" />
-              Travel.
+              <SiYourtraveldottv className="icon" />
+              Destinations.com
             </h1>
           </a>
         </div>

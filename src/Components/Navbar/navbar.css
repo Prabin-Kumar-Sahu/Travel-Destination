@@ -32,7 +32,7 @@
   justify-content: center;
 }
 .header .logo .icon {
-  font-size: 30px;
+  font-size: 35px;
   color: var(--PrimaryColor);
   transform: translate(5px);
 }
