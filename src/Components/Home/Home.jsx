@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import video from "../../Assets/video11.mp4";
+import video from "../../Assets/video111.webm";
 import { GrLocation } from "react-icons/gr";
 import {FaFilter} from "react-icons/fa"
 import {AiFillFacebook } from "react-icons/ai"
@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <section className="home">
       <div className="overlay"></div>
-      <video src={video} muted autoPlay loop type="video/mp4"></video>
+      <video src={video} muted autoPlay loop type="video/WebM"></video>
       <div className="homeContent container">
         <div className="textDiv">
           <span className="smallText">Our Packages</span>
