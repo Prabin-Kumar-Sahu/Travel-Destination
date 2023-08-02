@@ -59,6 +59,7 @@ const Footer = () => {
             {/* group one */}
             <div className="linksGroup">
               <span className="groupTitle">OUR AGENCY</span>
+              
 
               <li className="footerList flex">
                 <AiOutlineRight className="icon" />
