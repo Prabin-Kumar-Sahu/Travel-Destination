@@ -78,9 +78,75 @@ const Footer = () => {
 
               <li className="footerList flex">
                 <AiOutlineRight className="icon" />
+                Agency
+              </li>
+              <li className="footerList flex">
+                <AiOutlineRight className="icon" />
                 Payment
               </li>
             </div>
+             {/* group two */}
+             <div className="linksGroup">
+              <span className="groupTitle">PARTNERS</span>
+              
+
+              <li className="footerList flex">
+                <AiOutlineRight className="icon" />
+               Booking.com
+              </li>
+
+              <li className="footerList flex">
+                <AiOutlineRight className="icon" />
+                Agoda
+              </li>
+
+              <li className="footerList flex">
+                <AiOutlineRight className="icon" />
+                MakeMyTrip
+              </li>
+
+              <li className="footerList flex">
+                <AiOutlineRight className="icon" />
+                Airbnb
+              </li>
+              <li className="footerList flex">
+                <AiOutlineRight className="icon" />
+                Rentcars
+              </li>
+            </div>
+             {/* group three */}
+             <div className="linksGroup">
+              <span className="groupTitle">LAST MINUTE</span>
+              
+
+              <li className="footerList flex">
+                <AiOutlineRight className="icon" />
+                London
+              </li>
+
+              <li className="footerList flex">
+                <AiOutlineRight className="icon" />
+                California
+              </li>
+
+              <li className="footerList flex">
+                <AiOutlineRight className="icon" />
+                Indonesia
+              </li>
+
+              <li className="footerList flex">
+                <AiOutlineRight className="icon" />
+                Europe
+              </li>
+              <li className="footerList flex">
+                <AiOutlineRight className="icon" />
+                Oceania
+              </li>
+            </div>
+          </div>
+          <div className="footerDiv flex">
+            <small>BEST TRAVEL WEBSITE THEME</small>
+            <small>COPYRIGHT RESERVED - ISRATECH 2023</small>
           </div>
         </div>
       </div>
