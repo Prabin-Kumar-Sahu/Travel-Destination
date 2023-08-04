@@ -125,3 +125,24 @@
     }
   }
 }
+
+// media queries
+
+@media screen and (min-width:769px)
+{
+  .toggleNavbar,.closeNavbar
+  {
+    display: none;
+  }
+
+  .header{
+    padding: 1.5rem 2rem;
+
+    .navBar{
+      .navLists
+      {
+        display: flex;
+      }
+    }
+  }
+}
