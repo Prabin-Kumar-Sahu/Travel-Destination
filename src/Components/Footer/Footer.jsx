@@ -151,10 +151,10 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* <div className="footerDiv flex">
+          <div className="footerDiv flex">
             <small>BEST TRAVEL WEBSITE THEME</small>
             <small>COPYRIGHT RESERVED-ISRATECH 2023</small>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

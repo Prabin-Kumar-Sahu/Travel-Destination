@@ -32,10 +32,9 @@
 
   --cardBG: Irgb(225, 225, 235);
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-
 
 a {
   text-decoration: none;
@@ -60,8 +59,7 @@ li {
   display: flex;
   align-items: center;
 }
-.grid
-{
+.grid {
   display: grid;
   align-items: center;
 }
@@ -91,4 +89,22 @@ input {
 
 body {
   background: var(--bodyColor);
+}
+
+/* media queries */
+
+@media screen and (min-width: 1240px) {
+  .container {
+    width: 80% !important;
+    margin: auto !important ;
+  }
+  .section {
+    padding: 6rem 0 4rem;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  body {
+    zoom: 1.7;
+  }
 }
